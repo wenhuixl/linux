@@ -12,4 +12,6 @@ ln -s /usr/local/src/nodejs/bin/npm /usr/local/bin/npm
 
 6.安装压缩和解压工具 yum install -y unzip zip
 
-7. 全局安装npm install pm2 -g
+7.全局安装npm install pm2 -g
+
+8.ln -s /usr/local/src/nodejs/lib/node_modules/pm2/bin/pm2 /usr/local/bin/pm2
